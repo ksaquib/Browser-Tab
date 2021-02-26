@@ -1,20 +1,21 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Tab from "./components/Tab";
 
 function App() {
   return (
     <div className="app">
       <div className="browser">
         <div className="tabs">
-          <div className="tab">
+          <Tab>
             <a>Home</a>
-          </div>
-          <div className="tab">
+          </Tab>
+          <Tab>
             <a>About</a>
-          </div>
-          <div className="tab">
+          </Tab>
+          <Tab>
             <a>Features</a>
-          </div>
+          </Tab>
         </div>
 
         <div className="viewport">Pages Go Here</div>
